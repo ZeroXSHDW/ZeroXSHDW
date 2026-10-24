@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="ZeroDevLLC cyber theme banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050a08"/>
+      <stop offset="100%" stop-color="#09130e"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="45%" stop-color="#00ff88"/>
+      <stop offset="85%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="rgba(178,255,202,0.08)" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="rad" cx="72%" cy="8%" r="40%">
+      <stop offset="0%" stop-color="rgba(56,173,99,0.22)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#rad)"/>
+  <rect width="1200" height="320" fill="url(#grid)" opacity="0.9"/>
+
+  <!-- scanlines -->
+  <rect width="1200" height="320" fill="repeating-linear-gradient( to bottom, transparent 0, transparent 3px, #d4ffdf 4px)" opacity="0.018"/>
+
+  <!-- perspective floor grid (3D-ish) -->
+  <g transform="perspective(900px) rotateX(55deg) translate(600,260)" opacity="0.5">
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -42" dur="3s" repeatCount="indefinite"/>
+      <rect x="-700" y="-400" width="1400" height="800" fill="url(#grid)"/>
+    </g>
+  </g>
+
+  <!-- title -->
+  <text x="600" y="150" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="56" font-weight="700" fill="url(#neon)" filter="url(#glow)" letter-spacing="6">
+    ZERODEVLLC
+    <animate attributeName="opacity" values="1;0.85;1" dur="2.4s" repeatCount="indefinite"/>
+  </text>
+  <text x="600" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" fill="#a6b8ad" letter-spacing="8">
+    CYBER-DECK · LOCAL-FIRST · NO CLOUD · NO TELEMETRY
+  </text>
+
+  <!-- status dot -->
+  <circle cx="40" cy="40" r="6" fill="#00ff88">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="54" y="45" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#8fa395" letter-spacing="2">SYSTEM ONLINE</text>
+
+  <!-- bottom border glow -->
+  <rect x="0" y="316" width="1200" height="4" fill="url(#neon)" opacity="0.9"/>
+</svg>
