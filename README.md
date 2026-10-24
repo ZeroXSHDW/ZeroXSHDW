@@ -1,3 +1,7 @@
+<!-- zerodevllc-theme -->
+[![ZeroDevLLC](https://img.shields.io/badge/ZeroDevLLC-cyber--deck-00ff88?style=for-the-badge&labelColor=050a08)](https://ZeroDevLLC.com)
+[![Theme](https://img.shields.io/badge/theme-3D%20cyber-00f0ff?style=flat-square&labelColor=050a08)](https://ZeroDevLLC.com)
+
 <p align="center"><img src="https://raw.githubusercontent.com/ZeroXSHDW/ZeroXSHDW/main/assets/zerodev-banner.svg" alt="ZeroDevLLC cyber theme" width="100%"/></p>
 
 > **CYBER-DECK · LOCAL-FIRST · NO CLOUD · NO TELEMETRY**
@@ -59,3 +63,7 @@ SECURE
 <a href="https://github.com/zeroxshdw">GitHub</a>
 
 <p align="center"><sub>SHADOW STORM · DevOps profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
+
+---
+
+<p align="center"><sub><code>ZeroDevLLC · cyber-deck · local-first · no cloud · no telemetry</code></sub></p>
