@@ -72,3 +72,7 @@ SECURE
 ---
 
 <p align="center"><sub><code>ZeroDevLLC · cyber-deck · local-first · no cloud · no telemetry</code></sub></p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ZeroXSHDW&bg_color=050a08&color=00ff88&line=00f0ff&point=a78bfa&area=true&area_color=00ff88&hide_border=false&border_color=00ff88" alt="Activity graph" />
+</p>
