@@ -6,6 +6,11 @@
 
 > **CYBER-DECK · LOCAL-FIRST · NO CLOUD · NO TELEMETRY**
 
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ZeroXSHDW&show_icons=true&theme=chartreuse-dark&bg_color=050a08&title_color=00ff88&text_color=a6b8ad&icon_color=00f0ff&border_color=00ff88&hide_border=false" alt="GitHub stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroXSHDW&theme=dark&background=050a08&ring=00ff88&fire=00f0ff&currStreakLabel=00ff88&sideLabels=a6b8ad&dates=8fa395&border=00ff88" alt="GitHub streak" />
+</p>
 ## Delivery pipeline
 
 <p align="center">
