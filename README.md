@@ -1,3 +1,7 @@
+<p align="center"><img src="https://raw.githubusercontent.com/ZeroXSHDW/ZeroXSHDW/main/assets/zerodev-banner.svg" alt="ZeroDevLLC cyber theme" width="100%"/></p>
+
+> **CYBER-DECK · LOCAL-FIRST · NO CLOUD · NO TELEMETRY**
+
 ## Delivery pipeline
 
 <p align="center">
